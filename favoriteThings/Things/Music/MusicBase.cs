@@ -4,7 +4,7 @@ using System.Text;
 
 namespace favoriteThings.Things
 {
-    public class Music
+    public class MusicBase
     {
         //Properties
         public string Genre { get; set; }

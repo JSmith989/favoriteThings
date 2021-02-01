@@ -4,7 +4,7 @@ using System.Text;
 
 namespace favoriteThings.Things
 {
-    public class Gardening
+    public class GardeningBase
     {
         //Properties
         public string Type { get; set; }

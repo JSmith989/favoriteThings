@@ -7,34 +7,34 @@ namespace favoriteThings
     {
         public static void Main(string[] args)
         {
-            var meal1 = new Cooking
+            var meal1 = new CookingBase
             {
                 MealType = "Dinner",
                 IsHealthy = false,
                 Calories = 1560,
             };
-            var meal2 = new Cooking
+            var meal2 = new CookingBase
             {
                 MealType = "Breakfast",
                 IsHealthy = true,
                 
             };
-            var garden1 = new Gardening
+            var garden1 = new GardeningBase
             {
                 Type = "Fruit Garden",
                 Location = "Indoors",
             };
-            var garden2 = new Gardening
+            var garden2 = new GardeningBase
             {
                 Type = "Veggie Garden",
                 Location = "Outdoors",
             };
-            var music1 = new Music
+            var music1 = new MusicBase
             {
                 Genre = "Hair Metal",
                 Volume = 11,
             };
-            var music2 = new Music
+            var music2 = new MusicBase
             {
                 Genre = "Shoegaze",
                 Volume = 8,
@@ -57,8 +57,8 @@ namespace favoriteThings
             garden2.Growing();
             music1.Loud();
             music2.Loud();
-            wine1.Legs();
-            wine2.Legs();
+            wine1.WineLegs();
+            wine2.WineLegs();
         }
     }
 }

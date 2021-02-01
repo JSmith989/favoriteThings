@@ -12,7 +12,7 @@ namespace favoriteThings.Things
         public int Alcohol { get; set; }
 
         //Methods
-        public void Legs()
+        public void WineLegs()
         {
             if (Alcohol > 15 )
             {
